@@ -1,0 +1,16 @@
+<web-app>
+<servlet>
+<servlet-name>Marriage</servlet-name>
+<servlet-class>com.nt.servlet.MarriageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Marriage</servlet-name>
+<url-pattern>/Marriageurl</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>input.html</welcome-file>
+<welcome-file>Welcome.html</welcome-file>
+<welcome-file>Input.jsp</welcome-file>
+</welcome-file-list>
+
+</web-app>
